@@ -1,6 +1,6 @@
 /* portfolio */
 
-.portfolio-img {
+.portfolio-list {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -9,7 +9,7 @@
     gap: 30px;
 }
 
-.portfolio-img>li {
+.portfolio-list>li {
     height: 294px;
 }
 
@@ -23,7 +23,7 @@
     }
 }
 
-.container-for-portfolio-text {
+.portfolio-list__item__text-container {
     width: 370px;
     height: 70px;
     display: flex;
@@ -34,7 +34,7 @@
     background: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
 }
 
-.portfolio-text {
+.portfolio-list__item__text-container__text {
     color: rgba(255, 255, 255, 1);
     font-family: 'Roboto';
     font-style: normal;
